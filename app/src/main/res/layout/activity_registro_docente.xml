@@ -91,6 +91,7 @@
         android:textColor="#FFF"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword"
+        android:onClick="nextGrupo"/>
 
 </android.support.constraint.ConstraintLayout>
