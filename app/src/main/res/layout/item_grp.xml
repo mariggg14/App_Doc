@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:maxHeight="212dp">
+
+    <ImageView
+        android:id="@+id/grpEsc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="#e74c3c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Ver Ahora"
+        android:background="@drawable/grp_item_btn"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/grp_item"
+        app:layout_constraintBottom_toBottomOf="@id/grpEsc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="16dp"
+        android:text="Instituto Tecnologico Superior"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/grpDesc"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/grpDesc"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginStart="16dp"
+        android:text="8ª Grupo |4K|"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
